@@ -1,0 +1,20 @@
+/* RESPONSIVE GALLERY */
+
+.img-container {
+  width: 100%;
+  background-color: #474747;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container>* {
+  background-color: #C45D7B;
+  width: 300px;
+  height: 200px;
+  flex-grow: 1;
+  border-color: #E8E8E8;
+  border-radius: 10px;
+  border-width: 10px;
+  margin: 10px;
+  object-fit: cover;
+}
