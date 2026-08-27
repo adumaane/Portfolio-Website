@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #E8E8E8;
+  --secondary-color1: #AAED96;
+  --secondary-color2: #C45D7B;
+  --base-color0: #000000 ;
+  --base-color1: #474747 ;
+}
+* {
+  color: var(--primary-color);
+  /* LINKS */
+  text-decoration: none;
+}
+/* TEXT */
+h1 {
+  font-family: "Chivo Mono", sans-serif;
+}
+h2 {
+  font-family: "Chivo Mono", sans-serif;
+}
+h3 {
+  font-family: "Space Grotesk", sans-serif;
+}
+p {
+  font-family: "Chivo Mono", monospace;
+}
+mark {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--secondary-color2);
+  font-style: bold;
+}
+
+
+body{
+  background-color: var(--base-color0);
+  overflow-x: hidden;
+  scrollbar-gutter: auto;
+  scrollbar-gutter: stable both-edges;
+}
+
+button {
+  background-color: var(--base-color0);
+  border: double var(--primary-color);
+  border-width: 4px;
+  border-radius: 3px;
+  font: inherit;
+
+  transition-duration: 0.2s;
+}
+button a :hover {
+  /*background-color: var(--base-color1);*/
+  box-shadow:
+    0px 0px 10px 1px var(--primary-color);
+  /* in order: x offset, y offset, blur size, spread size, color */
+}
+
+
+img {
+  pointer-events: none;
+}
+
+/* RESPONSIVE GALLERY */
+
+.img-container {
+  width: 100%;
+  background-color: #474747;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container>* {
+  background-color: #C45D7B;
+  width: 300px;
+  height: 200px;
+  flex-grow: 1;
+  border-color: #E8E8E8;
+  border-radius: 10px;
+  border-width: 10px;
+  margin: 10px;
+  object-fit: cover;
+}
