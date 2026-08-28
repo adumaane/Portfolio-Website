@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": "mjau",
+      "title": "Mjau",
+      "type": "photo",
+      "video": null,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_sDLjQJRy-_0YoCv7TP3qZ2VDv76S23wywnfjJ7h5zPnzGM4-nBzIo6yE&s=10",
+      "description": "Mjau\n\nMjau"
+    },
+    {
+      "id": "absurds",
+      "title": "Absurds",
+      "type": "video",
+      "thumbnail": "https://fv2-2.failiem.lv/thumb_show.php?i=4kg75cbr622vj5b8&view&v=1&PHPSESSID=f830eebf46be1eefbd83eacf014a42f7bf5ca6bf",
+      "video": "https://www.youtube.com/embed/3oxEF98UifM?si=CA_Yv90hlOYlO4fK&rel=0;controls=1",
+      "description": "Interaktīva instalācija. 1920x1080 px. 6'30''. 2025 \n\nSinhronizēts video un interaktīvas 3D vides darbs, kurā tiek vizualizēta irracionāla stāsta interpretācija un tās izveidošanās no dažādu klausītāju skatpunktiem.\n\nRunātājam bez priekšlaicīgas sagatavošanās ir jāizdomā irracionāls stāsts, ar irracionālu hronoloģiju, aprakstot kādu interesantu pēdējā laikā pieredzētu pastaigu, cenšoties pārliecināt klausītāju. Klausītājs vizualizē stāstu savā galvā, mēģina noticēt notikumu secībai un loģikai. Rezultātā prāts aizpilda nesakritības ar jaunu loģiku, veidojot jaunu realitāti.\n\nVideo daļa ir darba autora interpretācija, klausoties un vērojot runātāju pirmo reizi; interaktīvā daļa ir skatītāja iespēja patstāvīgi iziet cauri absurdā stāsta videi un manipulēt tās izveidi"
+    }
+  ]
+}
